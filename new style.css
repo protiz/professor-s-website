@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  header nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Main */
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  /* Portfolio */
+  
+  .portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-item {
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Contact */
+  
+  #contact form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #contact label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact input, #contact textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  body
+  background-image: url('mm.jpg');
+  
+  <img src="farm.jpg" height="250px" width="200px"
+  style="border-radius:50%;"
+  alt="">
+  
+  Explanation:
+  
+  * The HTML code creates the structure of the home page, including the header, main content, and footer.
+  * The CSS code styles the different elements on the page, such as the header, navigation menu, main content sections, portfolio items, contact form, and footer.
+  * You can customize the content and appearance of your home page by modifying the text, images, and CSS styles in the code.
+  * Make sure to replace the placeholder content and portfolio items with your own information and projects.
+  

@@ -1,0 +1,153 @@
+
+
+/* Reset styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+  background-color: #90bdc2;
+  color: hsl(70, 14%, 91%);
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header nav {
+  float:left;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #e8eaea;
+}
+
+header nav a:hover {
+  color: #a2b3b1;
+}
+
+/* Main */
+
+main {
+  margin-top: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* Portfolio */
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #21a497;
+}
+
+/* Contact */
+
+#contact form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #2ec3a3;
+}
+
+#contact input[type="submit"] {
+  background-color: hsl(0, 23%, 89%);
+  color: hsl(193, 23%, 92%);
+  padding: 5px 10px;
+  border: none;
+}
+
+/* Footer */
+
+footer {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(180, 5%, 9%);
+  padding: 20px 0;
+  text-align: center;
+}
+body
+background-image: url('mm.jpg');
+
+<img src="farm.jpg" height="250px" width="200px"
+style="border-radius:50%;"
+alt="">
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: rgb(240, 245, 247);
+  text-align: center;
+  padding: 20px 0;
+}
+nav {
+  background-color: #0d0f04;
+  text-align: center;
+  padding: 10px 0;
+}
+nav a {
+  text-decoration: none;
+  color: #eef5f5;
+  margin: 0 20px;
+  font-size: 18px;
+}
+section {
+  padding: 40px;
+  text-align: center;
+}
+h2 {
+  color: hsl(184, 60%, 95%);
+}
+p {
+  color: #eef4f4;
+  font-size: 16px;
+}
